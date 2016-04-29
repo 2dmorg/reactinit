@@ -22,12 +22,12 @@
     "less": "assets/less/*.less",
     "js": "./app/**/*.js",
     "jsx": "./app/**/*.jsx",
-    "app": "./app/app.jsx",
+    "app": "./app/main.jsx",
     "html": "*.html"
   },
   "dest": {
     "style": "style.css",
-    "app": "app.js",
+    "app": "main.js",
     "dist": "dist"
   },
   "dependencies": {

@@ -1,11 +1,10 @@
-import Hello from './components/Hello.jsx';
+import NextButton from './components/next-button.jsx';
 
 var render = function() {
 
   ReactDOM.render(
     <div>
-      <Hello name="kenan"/>
-      <p>how are you?</p>
+      <NextButton name="申请成为59骑士"/>
     </div>,
     document.getElementById("main")
  );
